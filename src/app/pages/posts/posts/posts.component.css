@@ -1,0 +1,9 @@
+.sidebar {
+    max-height: 600px;
+    overflow: scroll;
+}
+
+.content-posts {
+    max-height: 400px;
+    overflow: scroll;
+}

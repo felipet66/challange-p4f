@@ -1,0 +1,13 @@
+<ul class="sidebar">
+  <li 
+    *ngFor="let user of resources; let index"
+    style="cursor: pointer; list-style: none;">
+    <div 
+      class="card p-2" 
+      (click)="sendUserId(user.id)">
+      <p class="m-0 small">{{ user.name }}</p>
+      <p class="m-0 small">{{ user.email }}</p>
+      <p class="m-0 small">{{ user.company.name }}</p>
+    </div>
+  </li>
+</ul>
